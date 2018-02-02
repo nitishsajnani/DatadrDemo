@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="Listeners.CustomListeners"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+  </listeners>
+  <test name="LoginManagerTest">
+    <classes>
+      <class name="TestCases.BankManagerLoginTest"/>
+    </classes>
+  </test> <!-- LoginManagerTest -->
+  <test name="AddCustomerTest">
+    <classes>
+      <class name="TestCases.AddCustomer"/>
+    </classes>
+  </test> <!-- AddCustomerTest -->
+  <test name="OpenAccountTest">
+    <classes>
+      <class name="TestCases.OpenAccount"/>
+    </classes>
+  </test> <!-- OpenAccountTest -->
+  <test name="VerifyCustomer">
+    <classes>
+      <class name="TestCases.VerifyCustomer"/>
+    </classes>
+  </test> <!-- VerifyCustomer -->
+</suite> <!-- Failed suite [Suite] -->
