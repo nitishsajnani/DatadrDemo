@@ -53,7 +53,7 @@ public class Page {
 			fis= new FileInputStream(System.getProperty("user.dir")+"\\src\\test\\resources\\Properties\\Config.properties");
 			try {
 				config.load(fis);
-				log.debug("config properties loaded");
+				log.debug("config properties has been loaded");
 			} catch (IOException e1) {
 				// TODO Auto-generated catch block
 				e1.printStackTrace();
@@ -63,7 +63,7 @@ public class Page {
 			fis= new FileInputStream(System.getProperty("user.dir")+"\\src\\test\\resources\\Properties\\OR.properties");
 			try {
 				or.load(fis);
-				log.debug("OR properties loaded");
+				log.debug("OR properties has been loaded");
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
